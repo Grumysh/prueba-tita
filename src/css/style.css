@@ -87,8 +87,13 @@ ul {
     color: #ffffff;
 }
 
+.header-menu a:hover {
+    cursor: pointer;
+}
+
 .header-menu img {
     height: 20px;
+    margin-left: 20px;
 }
 
 .container {
@@ -145,7 +150,17 @@ ul {
     cursor: pointer;
 }
 
+
+/* Second Menu */
+.secondMenu{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
 /* Portafolio */
+
+
 
 #portoflio {
     margin: 1rem auto;
@@ -154,8 +169,6 @@ ul {
     padding: 0 20px 20px;
     box-sizing: border-box;
     column-count: 3;
-
-    /* Espacio entre columnas */
     -moz-column-gap: 20px;
     -webkit-column-gap: 20px;
     column-gap: 20px;
@@ -239,10 +252,25 @@ ul {
 
 
 /*  Estilos footer */
+.copy{
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #c6d2da;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.copy span{
+    color: #fc758c;
+    font-weight: bold;
+}
+
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px auto;
 }
 
 .footer-social-link {
