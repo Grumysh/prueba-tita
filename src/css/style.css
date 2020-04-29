@@ -1,0 +1,263 @@
+/* font-family: 'Questrial', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* Colores:
+    rosa: #fc758c
+    Salmon botones: #ff5672
+    rosa botones: #ffa0ab
+    rosa Letra: #ffdbdf
+    Gris letra: #f6f6f6
+*/
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Estilos Header */
+.header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    top: 0;
+    z-index: 100;
+}
+
+.header-logo {
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo figure {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.header-logo h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #474747;
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+.header-logo p {
+    font-family: "Montserrat", sans-serif;
+    color: #8f8f8f;
+    font-size: 11px;
+    margin: 0;
+    margin-top: -5px;
+    text-transform: uppercase;
+}
+
+.header-menu {
+    height: inherit;
+    margin: 0;
+}
+
+.header-menu ol {
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+.header-menu a {
+    padding: 0 15px;
+    margin: 0;
+    color: #474747;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.header-menu a.active {
+    background-color: #ff5672;
+    padding: 5px 20px;
+    color: #ffffff;
+}
+
+.header-menu img {
+    height: 20px;
+}
+
+.container {
+    width: 100%;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+/* main */
+.main {
+    margin: 0;
+    background-color: #fc758c;
+    min-height: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    text-align: center;
+    color: #ffffff;
+}
+
+.main-container h1 {
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-container P {
+    font-family: "Questrial", sans-serif;
+    text-transform: initial;
+    font-size: 12px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.main-container button {
+    margin: 0;
+    margin-top: 50px;
+    background-color: #ffffff;
+    color: #fc758c;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.main-container button:hover {
+    cursor: pointer;
+}
+
+/* Portafolio */
+
+#portoflio {
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 20px 20px;
+    box-sizing: border-box;
+    column-count: 3;
+
+    /* Espacio entre columnas */
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
+}
+
+.container-portfolio {
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 0 0 20px 0;
+    text-align: center;
+    max-width: 100%;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    position: relative;
+}
+
+.container-portfolio img {
+    width: 100%;
+}
+
+.container-portfolio:hover {
+    transition: 0.5s ease;
+}
+
+.container-portfolio:hover .overlay {
+    opacity: 1;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #fc758c;
+}
+
+.container-portfolio .text {
+    color: white;
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.container-portfolio .text h4{
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 3px #ffffff solid;
+    font-family: "Questrial", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.container-portfolio .text P {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/*  Estilos footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-link {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    transition: all 0.5s ease;
+}
+
+.footer-social-link:hover {
+    transform: scale(1.5);
+}
+
+.footer-social-link > img {
+    width: 25px;
+    height: 25px;
+}
