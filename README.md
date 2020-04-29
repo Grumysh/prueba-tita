@@ -5,7 +5,12 @@ Tecnologías usadas:
  * **CSS**
  * **Javascript**
 
-### **Pasos para Ejecutar**
+### **Pagina desplegada en githubPages**
+
+[https://anlramirezs11.github.io/prueba-tita/](https://anlramirezs11.github.io/prueba-tita/)
+
+
+### **Pasos para Ejecutar en entorno local**
 
 * Clonar el proyecto del repositorio de git
 ```shell
