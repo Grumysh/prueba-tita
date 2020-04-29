@@ -28,4 +28,4 @@ Tecnologías usadas:
 ```
 
 El proyecto se ejecutará en el puerto 8080
-  [http://localhost:8080/](http-server src)
+  [http://localhost:8080/](http://127.0.0.1:8080)
